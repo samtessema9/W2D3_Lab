@@ -38,6 +38,14 @@ a {
     justify-content: space-between;
 }
 
+#intro h2 {
+    margin-top: 0;
+}
+
+#intro p {
+    margin-bottom: 0;
+}
+
 #info {
     display: flex;
     margin-top: 15px;
