@@ -1,15 +1,10 @@
 body {
     margin: 30px 60px;
-    /* border: solid red 2px; */
     min-height: 100vh;
     background-color: beige;
     font-size: 20px;
     font-family: Tahoma;
 }
-
-/* header {
-    font-family: ;
-} */
 
 nav {
     display: flex;
@@ -34,6 +29,7 @@ main img {
 
 a {
     color: brown;
+    text-decoration: none;
 }
 
 #intro {
@@ -41,10 +37,6 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
-
-/* #intro * {
-    text-justify: ;
-} */
 
 #info {
     display: flex;
@@ -62,11 +54,13 @@ a {
 }
 
 #imgs div {
-    border: solid brown 5px;
-    width: 100px;
-    height: 70px;
+    border: solid brown 10px;
+    width: 150px;
+    height: 100px;
     text-align: center;
-    line-height: 70px;
+    line-height: 100px;
+    color: brown;
+    font-size: 40px;
 }
 
 hr {
@@ -76,6 +70,10 @@ hr {
 
 footer {
     margin-top: 20px;
+}
+
+#red-text {
+    color: red;
 }
 
 form {
